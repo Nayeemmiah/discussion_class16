@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    text-transform: uppercase ;
+    margin-left: 20px;
+    letter-spacing: .2em;
+    cursor: pointer;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 8px;
+    background: rgb(85, 180, 128);
+    border-radius: 10px;
+}
+.menu ul li a:hover{
+    background: rgb(233, 162, 10);
+}
+button{
+    background: yellow;
+    padding: 8px;
+    margin-right: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+} 
+button a{
+    text-decoration: none;
+}
+button:hover{
+    background: #f30b7f;
+    
+}
+button a:hover{
+    color: aliceblue;
+}
+.news{
+    background: #f30b7f;
+    display: flex;
+    margin-top: 5px;
+}
+.title{
+    width: 150px;
+    background: yellow;
+    padding: 10px;
+}
+.description{
+    padding: 10px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+
+h1{
+    background: mediumaquamarine;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1::first-letter{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+th, td{
+    border: 1px solid rgb(199, 22, 22);
+    text-align: center;
+    padding: 8px;
+}
+tr:first-child{
+    background: #f30b7f;
+    color: aliceblue;
+}
+tr:nth-child(4){
+    background: yellowgreen;
+}
